@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, inital-scale=1.0">
+            <title>Creation of Form</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+    <body>
+    <div class="form-container">
+        <h1>Contact Form</h1>
+        <form action="#">
+            <div class="form-label">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your Full Name" required>
+            </div>
+            <div class="form-label">
+             <label for="age">Age</label>
+             <select id="age" name="age" required>
+                <option value="">Select your age group</option>
+                <option value="under18">Under 18</option>
+                <option value="18-22">18-25</option>
+                <option value="23-27">23-27</option>
+                <option value="28-32">28-32</option>
+                <option value="33-37">33-37</option>
+                </select>
+            </div>
+            <div class="form-label">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-label">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Please leave a meassage"></textarea>
+            </div>
+            <button type="Submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+    </body>
+    </html>

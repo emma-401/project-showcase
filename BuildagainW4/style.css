@@ -1,0 +1,54 @@
+/*Global Styling*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body Styling*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    background: #fff;
+    line-height: 1.6;
+}
+
+/*Navigation*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid grey;
+}
+
+nav a{
+    margin-left:20px ;
+    text-decoration: underline;
+    color: #111;
+}
+
+/*Hero*/
+header{
+    text-align: center;
+    padding: 50px 20px;
+    background: #eee;
+}
+
+header a {
+    display: inline-block;
+    margin-top: 10px;
+    background: gray;
+    color: #fff;
+    text-decoration: underline;
+    padding: 12px 25px;
+}
+
+/*Value Section*/
+section{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+section div{
+    margin-top: 30px;
+}

@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #a8b496;
+}
+
+.form-container{
+background: #fff;
+padding: 10px 20px 15px 30px ;
+border-radius: 20px;
+box-shadow:2px 5px 15px rgba(47, 61, 189, 0.5);
+width: 70%;
+max-width: 800px;
+min-height: 70vh;
+}
+
+.form-container h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.form-label{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-style: italic;
+    gap: 15px;
+}
+
+.form-label input, 
+.form-label textarea
+{
+padding: 10px 20px;
+border: 3px solid #ccc;
+border-radius: 10px;
+font-size: 1.2rem;
+transition: border 0.3ms, box-shadow 0.8s;
+box-sizing: border-box;
+}
+
+.form-label select{
+    width: 50%;
+    max-width: 200px;
+}
+
+.form-label input:focus,
+.form-label textarea:focus{
+    border-color: turquoise;
+    outline: none;
+    box-shadow: 0 0 5px rgba(118, 26, 111, 0.5);
+}
+
+.form-label textarea {
+    resize: vertical;
+    overflow-y: auto;
+    min-height: 100px;
+}
+
+.submit-button{
+    background:gray;
+    color: whitesmoke;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.5s;
+    font-weight: 500;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 5px;
+    display: block;
+    margin: 20px auto;
+}
+
+.submit-button:hover{
+    background: #0056b3;
+}
+
+@media (max-width:500px){
+    padding: 20px;
+}
